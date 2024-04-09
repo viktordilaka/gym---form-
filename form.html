@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="form.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Strait&display=swap" rel="stylesheet">
+  <title>Form for registration</title>
+</head>
+<body>
+  <header>
+    <h1>Gym membership</h1>
+    
+  </header>
+  <main>
+    
+    <form>
+      <image class="gym" src="gym.jpg" rel="people training in the gym"> 
+      <!-- Контейнер за имената -->
+      <div class="container-name"><label class="name" for="name">First name </label>
+        <input id="name" type="text" placeholder="Viktor" required></input></div>
+      <div class="container-surname "><label class="surname"for="surname">Surname</label>
+        <input id="surname" type="text" placeholder="Dilov" required></input></div>
+      
+      <fieldset>
+      <legend class="gender-legend ">Gender </legend>
+      <!-- Контейнър за пола -->
+       <div class="gender-container">
+        <div class="male"><label class="ml" for="male">Male<label>
+        <input id="male" name="gender" type="radio" ></input></div> 
+        <div class="female"> <label class="wn" for="female">Female</label>
+        <input id="female" name="gender" type="radio" ></input></div></div>
+      </fieldset>
+
+      <!-- Контейнър за пола -->
+      <div class="birth-container"><label class="birth-date" for="birth-date">Birth day </label>
+        <input id="birth-date" type="text" placeholder="MM/DD/YYYY"  onfocus="(this.type='date')"></input></div>
+      
+      <!-- Контейнър за майл -->
+      <div class="email-container"><label class="email" for="email">Email </label>
+      <input id="email" type="email" placeholder="sir.jones@gmail.com" required></input></div>
+      
+      <!-- Контейнър за телефон -->
+      <div class="phone-container"><label class="phone" for="number">Phone number<br/><small>Format: 359-888-777-123</small> </label>
+        <input id="number" type="tel" required></input></div>
+      <p>Git hub</p>
+      
+      <button>Submit</button>
+      <!-- Питай за радио бутона! Дали може да не е посочен, когато се отвори страницата!  -->
+      <!-- Питай дали когато има опция други след натискането на бутона, да се отвори <textarea>  -->
+  
+    </form>
+  </main>
+ 
+  
+</body>
+</html>
+

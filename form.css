@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Strait", sans-serif;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+label,
+legend {
+  font-family: "Strait", sans-serif;
+  margin: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+input {
+  margin: 5px;
+}
+
+/* Picture */
+.gym {
+  border: thick double grey;
+  width: 30vw;
+  height: auto;
+  margin: 5px;
+}
+
+/* Names */
+.container-name {
+  background-color: "";
+  width: 30vw;
+  display: flex;
+  justify-content: flex-start;
+}
+.container-surname {
+  background-color: "";
+  width: 30vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.name {
+  text-align: start;
+  width: 30vw;
+}
+
+.surname {
+  text-align: start;
+  width: 30vw;
+}
+
+/* Gender */
+.gender-container {
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: "";
+}
+
+.gender-legend {
+  width: 30vw;
+  text-align: start;
+  background-color: "";
+}
+
+.male {
+  text-align: center;
+  width: 30vw;
+}
+
+.female {
+  text-align: center;
+  width: 30vw;
+}
+
+/* Birthday */
+.birth-container {
+  background-color: "";
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
+.birth-date {
+  width: 30vw;
+  text-align: start;
+}
+/* Email */
+.email-container {
+  background-color: "";
+  width: 30vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.email {
+  width: 30vw;
+  text-align: start;
+}
+
+/* Phone number */
+.phone-container {
+  background-color: "";
+  width: 30vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.phone {
+  width: 30vw;
+  text-align: start;
+}
+
+#number {
+  height: fit-content;
+}
+
+small {
+  font-size: 0.5em;
+}
+/* Button */
+button {
+  background-color: white;
+  font-size: 16px;
+  color: black;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 12px;
+  transition-duration: 0.1s;
+}
+
+button:hover {
+  background-color: green;
+  box-shadow: 0px 0px 5px 5px black;
+  color: white;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.find {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ШИфта и кутийте за input, бутона да се променят при различните размери */
+/* Да оправя Радио бутоните с пола легендата да си е горе, но половете да са един до 
+друг разделени! */
